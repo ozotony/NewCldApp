@@ -1,0 +1,139 @@
+﻿1>------ Build started: Project: NewCldApplication, Configuration: Release Any CPU ------
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\ValidateXml.aspx.cs(20,17,20,19): warning CS0219: The variable 'pp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\ValidateXml.aspx.cs(21,17,21,20): warning CS0219: The variable 'pp2' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\DownloadPdf2.aspx.cs(57,13,57,23): warning CS0612: 'HTMLWorker' is obsolete
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\DownloadPdf2.aspx.cs(57,41,57,51): warning CS0612: 'HTMLWorker' is obsolete
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\DownloadPdf4.aspx.cs(79,13,79,23): warning CS0612: 'HTMLWorker' is obsolete
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\DownloadPdf4.aspx.cs(79,41,79,51): warning CS0612: 'HTMLWorker' is obsolete
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(531,46,531,56): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(557,17,557,19): warning CS0219: The variable 'pp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(40,20,40,23): warning CS0219: The variable 'str' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(74,20,74,23): warning CS0219: The variable 'str' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(75,17,75,19): warning CS0219: The variable 'sn' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(335,20,335,24): warning CS0219: The variable 'str4' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(337,17,337,21): warning CS0219: The variable 'num2' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(396,17,396,20): warning CS0219: The variable 'sno' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(397,20,397,30): warning CS0219: The variable 'acceptdate' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(418,17,418,21): warning CS0219: The variable 'num2' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(856,20,856,25): warning CS0219: The variable 'dpass' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(856,39,856,44): warning CS0219: The variable 'dmail' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(944,34,944,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(976,34,976,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1005,34,1005,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1107,20,1107,24): warning CS0219: The variable 'succ' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1130,20,1130,24): warning CS0219: The variable 'succ' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1192,34,1192,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1214,34,1214,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1236,34,1236,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1258,34,1258,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1280,34,1280,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1302,34,1302,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1324,34,1324,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1346,34,1346,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1368,34,1368,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1389,34,1389,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1412,34,1412,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1564,24,1564,28): warning CS0219: The variable 'from' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1719,20,1719,24): warning CS0219: The variable 'from' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1848,30,1848,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1871,34,1871,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1908,34,1908,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1930,34,1930,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(1952,34,1952,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2222,20,2222,24): warning CS0219: The variable 'tt45' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2234,20,2234,29): warning CS0219: The variable 'agentType' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2298,34,2298,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2320,34,2320,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2343,34,2343,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2366,34,2366,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2389,34,2389,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(899,17,899,19): warning CS0219: The variable 'pp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(897,46,897,57): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2831,20,2831,23): warning CS0219: The variable 'str' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2835,20,2835,24): warning CS0219: The variable 'str4' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2869,34,2869,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2859,21,2859,23): warning CS0219: The variable 'bb' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2881,20,2881,23): warning CS0219: The variable 'str' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(2885,20,2885,24): warning CS0219: The variable 'str4' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1094,20,1094,31): warning CS0219: The variable 'inputString' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1160,17,1160,19): warning CS0219: The variable 'cc' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1281,17,1281,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1296,17,1296,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1311,17,1311,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1373,29,1373,31): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1417,30,1417,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1617,30,1617,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1664,30,1664,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1753,30,1753,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(3718,34,3718,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(3653,20,3653,27): warning CS0219: The variable 'voffice' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1973,17,1973,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(3820,34,3820,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(3755,20,3755,27): warning CS0219: The variable 'voffice' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(1988,17,1988,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2027,17,2027,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2042,17,2042,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2066,17,2066,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2082,17,2082,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2096,17,2096,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2203,17,2203,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2296,17,2296,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2311,17,2311,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(3999,34,3999,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(4027,34,4027,36): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Retriever.cs(4057,34,4057,36): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2637,17,2637,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2966,17,2966,19): warning CS0219: The variable 'kk' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2997,17,2997,28): warning CS0219: The variable 'xpay_status' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(2999,17,2999,23): warning CS0219: The variable 'payRef' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3001,17,3001,23): warning CS0219: The variable 'retRef' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3003,17,3003,24): warning CS0219: The variable 'cardNum' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3007,17,3007,24): warning CS0219: The variable 'apprAmt' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3011,17,3011,21): warning CS0219: The variable 'resp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3015,17,3015,21): warning CS0219: The variable 'desc' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3030,37,3030,45): warning CS0219: The variable 'lt_fdets' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3031,33,3031,41): warning CS0219: The variable 'lt_hwall' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3032,17,3032,20): warning CS0219: The variable 'vid' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3441,24,3441,27): warning CS0219: The variable 'ssp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\AccountController.cs(3690,30,3690,32): warning CS0168: The variable 'ee' is declared but never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Email.cs(54,21,54,38): warning CS0618: 'MailMessage.ReplyTo' is obsolete: 'ReplyTo is obsoleted for this type.  Please use ReplyToList instead which can accept multiple addresses. http://go.microsoft.com/fwlink/?linkid=14202'
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Email.cs(62,21,62,38): warning CS0618: 'MailMessage.ReplyTo' is obsolete: 'ReplyTo is obsoleted for this type.  Please use ReplyToList instead which can accept multiple addresses. http://go.microsoft.com/fwlink/?linkid=14202'
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Email.cs(15,24,15,30): warning CS0414: The field 'Email.passwd' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Controllers\ValuesController.cs(15,16,15,18): warning CS0414: The field 'ValuesController.pp' is assigned but its value is never used
+1>C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Models\Email.cs(17,24,17,32): warning CS0414: The field 'Email.username' is assigned but its value is never used
+1>  NewCldApplication -> C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\bin\WebApplication4.dll
+2>------ Publish started: Project: NewCldApplication, Configuration: Release Any CPU ------
+2>Connecting to C:\inetpub\wwwroot\NewCldApp...
+2>Transformed Web.config using C:\Einao\VS Source\Projects\NewCldApplication\NewCldApplication\Web.Release.config into obj\Release\TransformWebConfig\transformed\Web.config.
+2>Copying all files to temporary location below for package/publish:
+2>obj\Release\Package\PackageTmp.
+2>Publishing folder /...
+2>Publishing folder Areas...
+2>Publishing folder Areas/HelpPage...
+2>Publishing folder Areas/HelpPage/Views...
+2>Publishing folder Areas/HelpPage/Views/Help...
+2>Publishing folder Areas/HelpPage/Views/Help/DisplayTemplates...
+2>Publishing folder Areas/HelpPage/Views/Shared...
+2>Publishing folder bin...
+2>Publishing folder Certificate...
+2>Publishing folder Content...
+2>Publishing folder css...
+2>Publishing folder fonts...
+2>Publishing folder fonts/glyphicons...
+2>Publishing folder fonts/lato...
+2>Publishing folder Images...
+2>Publishing folder Images/brand...
+2>Publishing folder img...
+2>Publishing folder js...
+2>Publishing folder model7...
+2>Publishing folder partial...
+2>Publishing folder Scripts...
+2>Publishing folder skins...
+2>Publishing folder Views...
+2>Publishing folder Views/Home...
+2>Publishing folder Views/Shared...
+2>Publishing folder xml...
+2>Web App was published successfully file:///C:/inetpub/wwwroot/NewCldApp
+2>
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
