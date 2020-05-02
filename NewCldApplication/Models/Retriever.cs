@@ -3212,7 +3212,7 @@ namespace WebApplication4.Models
         {
             List<PtInfo> list = new List<PtInfo>();
             new PtInfo();
-            SqlConnection connection = new SqlConnection(this.Connect2());
+            SqlConnection connection = new SqlConnection(this.Connect3());
             SqlCommand command = new SqlCommand("SELECT * FROM pt_info WHERE log_staff='" + ID + "' ", connection);
             connection.Open();
             SqlDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
@@ -3224,16 +3224,16 @@ namespace WebApplication4.Models
                     reg_number = reader["reg_number"].ToString(),
                     xtype = reader["xtype"].ToString(),
                     title_of_invention = ConvertTab2Apos(reader["title_of_invention"].ToString()),
-                    pt_desc = reader["pt_desc"].ToString(),
-                    spec_doc = reader["spec_doc"].ToString(),
-                    loa_no = reader["loa_no"].ToString(),
-                    loa_doc = reader["loa_doc"].ToString(),
-                    claim_no = reader["claim_no"].ToString(),
-                    claim_doc = reader["claim_doc"].ToString(),
-                    pct_no = reader["pct_no"].ToString(),
-                    pct_doc = reader["pct_doc"].ToString(),
-                    doa_no = reader["doa_no"].ToString(),
-                    doa_doc = reader["doa_doc"].ToString(),
+                  //  pt_desc = reader["pt_desc"].ToString(),
+                   // spec_doc = reader["spec_doc"].ToString(),
+                   // loa_no = reader["loa_no"].ToString(),
+                   // loa_doc = reader["loa_doc"].ToString(),
+                   // claim_no = reader["claim_no"].ToString(),
+                   // claim_doc = reader["claim_doc"].ToString(),
+                   // pct_no = reader["pct_no"].ToString(),
+                   // pct_doc = reader["pct_doc"].ToString(),
+                  //  doa_no = reader["doa_no"].ToString(),
+                  //  doa_doc = reader["doa_doc"].ToString(),
                     log_staff = reader["log_staff"].ToString(),
                     reg_date = reader["reg_date"].ToString(),
                     xvisible = reader["xvisible"].ToString()
@@ -3392,7 +3392,7 @@ namespace WebApplication4.Models
             List<MarkInfo> list = new List<MarkInfo>();
             new MarkInfo();
             SqlConnection connection = new SqlConnection(this.Connect());
-            SqlCommand command = new SqlCommand("SELECT * FROM mark_info WHERE reg_number='" + ID + "' ", connection);
+            SqlCommand command = new SqlCommand("SELECT * FROM mark_info WHERE log_staff='" + ID + "' ", connection);
             connection.Open();
             SqlDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
             while (reader.Read())
@@ -4229,7 +4229,10 @@ namespace WebApplication4.Models
             XObjs.Registration x = new XObjs.Registration();
 
             SqlConnection connection = new SqlConnection(this.ConnectXhome());
-            SqlCommand command = new SqlCommand("SELECT * FROM registrations WHERE (xid='" + RegistrationID + "')  ", connection);
+           // SqlCommand command = new SqlCommand("SELECT * FROM registrations WHERE (xid='" + RegistrationID + "')  ", connection);
+            SqlCommand command = new SqlCommand("SELECT * FROM registrations WHERE (Sys_ID='" + RegistrationID + "')  ", connection);
+
+           
             connection.Open();
             SqlDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
             while (reader.Read())

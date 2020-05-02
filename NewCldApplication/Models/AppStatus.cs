@@ -63,6 +63,11 @@ namespace WebApplication4.Models
                 {
                     this.data_status = "Refused";
                 }
+
+                else if (data_status == "Accepted")
+                {
+                    this.data_status = "Accepted";
+                }
             }
             if (status == "4")
             {
@@ -126,51 +131,23 @@ namespace WebApplication4.Models
             if (status == "1")
             {
                 this.status = "Payment Verification Office";
-                if (data_status == "Fresh")
-                {
-                    this.data_status = "Untreated";
-                }
-                else if (data_status == "Invalid")
-                {
-                    this.data_status = "Invalid";
-                }
-                else if (data_status == "V_Contact")
-                {
-                    this.data_status = "Being processed";
-                }
+                if (data_status == "Fresh") { this.data_status = "Untreated"; }
+                else if (data_status == "Invalid") { this.data_status = "Invalid"; }
+                else if (data_status == "V_Contact") { this.data_status = "Being processed"; }
             }
             if (status == "2")
             {
-                this.status = "Search Office";
-                if (data_status == "Valid")
-                {
-                    this.data_status = "Successfully reviewed";
-                }
-                else if (data_status == "S_Contact")
-                {
-                    this.data_status = "Being processed";
-                }
+                this.status = "Patent Search Office";
+                if (data_status == "Valid") { this.data_status = "Successfully reviewed"; }
+                else if (data_status == "S_Contact") { this.data_status = "Being processed"; }
             }
             if (status == "3")
             {
-                this.status = "Examiner 1 Office";
-                if (data_status == "Further Search")
-                {
-                    this.data_status = "Further search required";
-                    this.status = "Search Office";
-                }
-                else if (data_status == "E_Contact")
-                {
-                    this.data_status = "Being processed";
-                }
-                else if (data_status == "Search Conducted")
-                {
-                    this.data_status = "Successfully reviewed";
-                }
-                else if (data_status == "Refused")
-                {
-                    this.data_status = "Refused";
-                }
+                this.status = "Patent Examiner 1 Office";
+                if (data_status == "Further Search") { this.data_status = "Further search required"; this.status = "Patent Search Office"; }
+                else if (data_status == "E_Contact") { this.data_status = "Being processed"; }
+                else if (data_status == "Search Conducted") { this.data_status = "Successfully reviewed"; }
+                else if (data_status == "Refused") { this.data_status = "Refused"; }
             }
             if (status == "4")
             {

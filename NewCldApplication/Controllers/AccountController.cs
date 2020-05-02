@@ -757,7 +757,7 @@ namespace WebApplication4.Controllers
         {
 
             var pp4 = User.Identity.Name;
-            var itemcode = new[] { "T003", "T008" };
+            var itemcode = new[] { "T003", "T008" ,"T022" };
             var ccd = (from c in db2.fee_list where c.xcategory == "tm" && !itemcode.Contains(c.item_code) select c).ToList();
             List<FeeListReport> ff = new List<FeeListReport>();
             int vcount = 0;
@@ -1600,11 +1600,13 @@ namespace WebApplication4.Controllers
                 // Stage stage = ppx.getStatusIDByvalidationID(property1);
                 List<MarkInfo> lt_mi = ppx.getMarkInfoByRegno(property1);
                 List<PtInfo>  lt_mix = ppx.getPtInfoByPwalletID(lt_pw[0].ID);
-              //  Stage lt_pw2 = ppx.getStageClassByUserID(lt_mi[0].log_staff);
-             //   List<Stage> lt_pw = ppx.getStageByClientIDAcc(lt_pw2.validationID);
+                //  Stage lt_pw2 = ppx.getStageClassByUserID(lt_mi[0].log_staff);
+                //   List<Stage> lt_pw = ppx.getStageByClientIDAcc(lt_pw2.validationID);
                 // List<MarkInfo> lt_mi = ppx.getMarkInfoByUserID(property1);
+                
+               // SortedList<string, string> x = ddx.showTmStatus(lt_pw[0].status, lt_pw[0].data_status);
 
-                SortedList<string, string> x = ddx.showTmStatus(lt_pw[0].status, lt_pw[0].data_status);
+                SortedList<string, string> x = ddx.showPtStatus(lt_pw[0].status, lt_pw[0].data_status);
 
                 ApplicationStatus dd = new ApplicationStatus();
                 dd.ppx = x;
@@ -1645,13 +1647,17 @@ namespace WebApplication4.Controllers
 
                 List<Stage> lt_pw = ppx.getStageByUserIDAcc3(property1);
                 // Stage stage = ppx.getStatusIDByvalidationID(property1);
-                List<MarkInfo> lt_mi = ppx.getMarkInfoByRegno(property1);
+              //  List<MarkInfo> lt_mi = ppx.getMarkInfoByRegno(property1);
+                List<MarkInfo> lt_mi = ppx.getMarkInfoByRegno(lt_pw[0].ID);
                 List<PtInfo> lt_mix = ppx.getPtInfoByPwalletID2(lt_pw[0].ID);
                 //  Stage lt_pw2 = ppx.getStageClassByUserID(lt_mi[0].log_staff);
                 //   List<Stage> lt_pw = ppx.getStageByClientIDAcc(lt_pw2.validationID);
                 // List<MarkInfo> lt_mi = ppx.getMarkInfoByUserID(property1);
 
-                SortedList<string, string> x = ddx.showTmStatus(lt_pw[0].status, lt_pw[0].data_status);
+
+              //  showDsStatus
+                SortedList<string, string> x = ddx.showDsStatus(lt_pw[0].status, lt_pw[0].data_status);
+               // SortedList<string, string> x = ddx.showTmStatus(lt_pw[0].status, lt_pw[0].data_status);
 
                 ApplicationStatus dd = new ApplicationStatus();
                 dd.ppx = x;
@@ -2793,6 +2799,36 @@ namespace WebApplication4.Controllers
                 try
                 {
                     IdentityResult result = UserManager.Create(user2, "1111");
+
+                }
+
+                catch (Exception ee)
+                {
+
+                    var kk = ee.Message;
+                }
+
+            }
+            return Ok();
+        }
+
+
+        [Route("UploadUser2b")]
+        [AllowAnonymous]
+        [HttpGet]
+        public IHttpActionResult UploadUser2b()
+        {
+            var ccd = (from c in db4.registrations where c.Email == "tounlove@gmail.com" select c.Email).Distinct().ToList();
+
+
+
+            foreach (var ccp in ccd)
+            {
+                var user2 = new ApplicationUser() { UserName = ccp, Email = ccp, LoginCount = 0 };
+
+                try
+                {
+                    IdentityResult result = UserManager.Create(user2, "111111");
 
                 }
 
